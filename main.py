@@ -12,7 +12,7 @@ connection = mysql.connector.connect(
     host = "localhost",
     user = "root",
     database = 'MyNewDatabase',
-    passwd = "Emine_belis.123")
+    passwd = "PASSW123.")
 
 if connection.is_connected():
     db_Info = connection.get_server_info()
@@ -27,7 +27,7 @@ try:
         host="localhost",
         user="root",
         database='MyNewDatabase',
-        passwd="Emine_belis.123")
+        passwd="PASSW123.")
 
     mySql_Create_Table_Query = """ CREATE TABLE IF NOT EXISTS MyMovieTable(
                                     Id int(40) NOT NULL,
